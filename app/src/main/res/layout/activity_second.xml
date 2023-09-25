@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:padding="60sp"
+        android:text="Вы "
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:text="Машина выбрала: "
+        android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
